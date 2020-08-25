@@ -1,3 +1,7 @@
 def fizzbuzz(x)
-  'fizz'
+  if x == 3
+    'fizz'
+  elsif x == 5
+    'buzz'
+  end
 end
